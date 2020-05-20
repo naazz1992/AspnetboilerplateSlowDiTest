@@ -1,0 +1,852 @@
+DEBUG 2020-05-19 17:05:10,968 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-05-19 17:05:11,288 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-05-19 17:05:11,309 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SlowDI.Web.Host.Startup.SlowDIWebHostModule, SlowDI.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:05:11,312 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SlowDI.SlowDIWebCoreModule, SlowDI.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:05:11,312 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SlowDI.SlowDIApplicationModule, SlowDI.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:05:11,313 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SlowDI.SlowDICoreModule, SlowDI.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:05:11,313 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:05:11,313 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:05:11,313 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:05:11,314 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:05:11,314 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SlowDI.EntityFrameworkCore.SlowDIEntityFrameworkModule, SlowDI.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:05:11,315 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:05:11,315 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:05:11,315 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:05:11,316 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:05:11,316 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:05:11,316 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:05:11,319 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-05-19 17:05:11,547 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-19 17:05:11,547 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-19 17:05:11,547 [1    ] o.Configuration.LanguageManagementConfig - Converted SlowDI (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-19 17:05:11,547 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-19 17:05:12,182 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: SlowDI.EntityFrameworkCore.SlowDIDbContext, SlowDI.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:05:13,397 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-05-19 17:05:13,445 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-05-19 17:05:13,459 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-05-19 17:05:13,465 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SlowDI
+DEBUG 2020-05-19 17:05:13,470 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-05-19 17:05:13,757 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-05-19 17:05:13,929 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[SlowDI.MultiTenancy.Tenant, SlowDI.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[SlowDI.Authorization.Users.User, SlowDI.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-05-19 17:05:14,000 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-05-19 17:05:14,000 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-05-19 17:05:14,007 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.Users.Dto.CreateUserDto
+DEBUG 2020-05-19 17:05:14,007 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.Users.Dto.UserDto
+DEBUG 2020-05-19 17:05:14,008 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-05-19 17:05:14,008 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-05-19 17:05:14,008 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.Roles.Dto.PermissionDto
+DEBUG 2020-05-19 17:05:14,008 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-05-19 17:05:14,008 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.MultiTenancy.Dto.TenantDto
+DEBUG 2020-05-19 17:06:33,832 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-05-19 17:06:33,909 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-05-19 17:06:33,927 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SlowDI.Web.Host.Startup.SlowDIWebHostModule, SlowDI.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:06:33,929 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SlowDI.SlowDIWebCoreModule, SlowDI.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:06:33,930 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SlowDI.SlowDIApplicationModule, SlowDI.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:06:33,930 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SlowDI.SlowDICoreModule, SlowDI.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:06:33,930 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:06:33,930 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:06:33,931 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:06:33,931 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:06:33,931 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SlowDI.EntityFrameworkCore.SlowDIEntityFrameworkModule, SlowDI.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:06:33,932 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:06:33,932 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:06:33,932 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:06:33,932 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:06:33,933 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:06:33,933 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:06:33,936 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-05-19 17:06:34,029 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-19 17:06:34,029 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-19 17:06:34,029 [1    ] o.Configuration.LanguageManagementConfig - Converted SlowDI (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-19 17:06:34,029 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-19 17:06:34,462 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: SlowDI.EntityFrameworkCore.SlowDIDbContext, SlowDI.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:06:35,719 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-05-19 17:06:35,765 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-05-19 17:06:35,781 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-05-19 17:06:35,797 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SlowDI
+DEBUG 2020-05-19 17:06:35,805 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-05-19 17:06:36,146 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-05-19 17:06:36,322 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[SlowDI.MultiTenancy.Tenant, SlowDI.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[SlowDI.Authorization.Users.User, SlowDI.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-05-19 17:06:36,381 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-05-19 17:06:36,381 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-05-19 17:06:36,388 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.Users.Dto.CreateUserDto
+DEBUG 2020-05-19 17:06:36,388 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.Users.Dto.UserDto
+DEBUG 2020-05-19 17:06:36,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-05-19 17:06:36,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-05-19 17:06:36,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.Roles.Dto.PermissionDto
+DEBUG 2020-05-19 17:06:36,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-05-19 17:06:36,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.MultiTenancy.Dto.TenantDto
+DEBUG 2020-05-19 17:07:38,958 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-05-19 17:07:39,026 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-05-19 17:07:39,042 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SlowDI.Web.Host.Startup.SlowDIWebHostModule, SlowDI.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:07:39,044 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SlowDI.SlowDIWebCoreModule, SlowDI.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:07:39,044 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SlowDI.SlowDIApplicationModule, SlowDI.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:07:39,045 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SlowDI.SlowDICoreModule, SlowDI.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:07:39,045 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:07:39,045 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:07:39,045 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:07:39,046 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:07:39,046 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SlowDI.EntityFrameworkCore.SlowDIEntityFrameworkModule, SlowDI.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:07:39,046 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:07:39,046 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:07:39,047 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:07:39,047 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:07:39,047 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:07:39,047 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:07:39,050 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-05-19 17:07:39,135 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-19 17:07:39,135 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-19 17:07:39,135 [1    ] o.Configuration.LanguageManagementConfig - Converted SlowDI (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-19 17:07:39,135 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-19 17:07:39,599 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: SlowDI.EntityFrameworkCore.SlowDIDbContext, SlowDI.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:07:40,793 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-05-19 17:07:40,835 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-05-19 17:07:40,853 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-05-19 17:07:40,859 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SlowDI
+DEBUG 2020-05-19 17:07:40,865 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-05-19 17:07:41,139 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-05-19 17:07:41,327 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[SlowDI.MultiTenancy.Tenant, SlowDI.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[SlowDI.Authorization.Users.User, SlowDI.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-05-19 17:07:41,393 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-05-19 17:07:41,393 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-05-19 17:07:41,399 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.Users.Dto.CreateUserDto
+DEBUG 2020-05-19 17:07:41,399 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.Users.Dto.UserDto
+DEBUG 2020-05-19 17:07:41,399 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-05-19 17:07:41,400 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-05-19 17:07:41,400 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.Roles.Dto.PermissionDto
+DEBUG 2020-05-19 17:07:41,400 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-05-19 17:07:41,400 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.MultiTenancy.Dto.TenantDto
+INFO  2020-05-19 17:07:46,053 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-05-19 17:07:46,652 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Naazz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-05-19 17:07:46,823 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-05-19 17:07:47,102 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 279.2621ms 404 
+INFO  2020-05-19 17:07:55,222 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2020-05-19 17:07:55,232 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9.7032ms 301 
+INFO  2020-05-19 17:07:55,238 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-05-19 17:07:55,422 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 184.2115ms 200 text/html;charset=utf-8
+INFO  2020-05-19 17:07:55,458 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2020-05-19 17:07:55,461 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2020-05-19 17:07:55,464 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2020-05-19 17:07:55,467 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2020-05-19 17:07:55,470 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2020-05-19 17:07:55,514 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'C:\Users\Naazz\Downloads\SlowDI\5.4.0\src\SlowDI.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2020-05-19 17:07:55,514 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'C:\Users\Naazz\Downloads\SlowDI\5.4.0\src\SlowDI.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2020-05-19 17:07:55,515 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2020-05-19 17:07:55,515 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2020-05-19 17:07:55,521 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 57.2406ms 200 application/javascript
+INFO  2020-05-19 17:07:55,523 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 59.8834ms 200 application/javascript
+INFO  2020-05-19 17:07:55,525 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2020-05-19 17:07:55,531 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 71.2464ms 200 application/javascript
+INFO  2020-05-19 17:07:55,534 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 74.4885ms 200 application/javascript
+INFO  2020-05-19 17:07:55,536 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 74.4828ms 200 text/css
+INFO  2020-05-19 17:07:55,789 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-05-19 17:07:55,835 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-05-19 17:07:56,014 [10   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2020-05-19 17:07:56,014 [13   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2020-05-19 17:07:56,017 [13   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2020-05-19 17:07:56,020 [10   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2020-05-19 17:07:56,023 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'SlowDI.Web.Host.Controllers.AntiForgeryController.SetCookie (SlowDI.Web.Host)'
+INFO  2020-05-19 17:07:56,565 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 729.9331ms 200 application/json;charset=utf-8
+INFO  2020-05-19 17:08:00,491 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller SlowDI.Web.Host.Controllers.AntiForgeryController (SlowDI.Web.Host).
+INFO  2020-05-19 17:08:00,631 [7    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-19 17:08:00,653 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action SlowDI.Web.Host.Controllers.AntiForgeryController.SetCookie (SlowDI.Web.Host) in 154.9382ms
+INFO  2020-05-19 17:08:00,657 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'SlowDI.Web.Host.Controllers.AntiForgeryController.SetCookie (SlowDI.Web.Host)'
+INFO  2020-05-19 17:08:00,662 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4873.1084ms 200 application/json; charset=utf-8
+INFO  2020-05-19 17:08:03,164 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js.map  
+INFO  2020-05-19 17:08:03,166 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js.map  
+INFO  2020-05-19 17:08:03,173 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 10.0294ms 404 
+INFO  2020-05-19 17:08:03,176 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.6862ms 404 
+INFO  2020-05-19 17:08:03,185 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css.map  
+INFO  2020-05-19 17:08:03,190 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9.9147ms 404 
+INFO  2020-05-19 17:08:11,786 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Tenant/Get?Id=1  
+INFO  2020-05-19 17:08:11,800 [10   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2020-05-19 17:08:11,804 [10   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2020-05-19 17:08:11,810 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'SlowDI.MultiTenancy.TenantAppService.GetAsync (SlowDI.Application)'
+INFO  2020-05-19 17:08:11,842 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Get", controller = "Tenant"}. Executing controller action with signature System.Threading.Tasks.Task`1[SlowDI.MultiTenancy.Dto.TenantDto] GetAsync(Abp.Application.Services.Dto.EntityDto`1[System.Int32]) on controller SlowDI.MultiTenancy.TenantAppService (SlowDI.Application).
+WARN  2020-05-19 17:08:12,592 [4    ] Mvc.ExceptionHandling.AbpExceptionFilter - L'utilisateur courant ne peut pas s'authentifier à l'application!
+Abp.Authorization.AbpAuthorizationException: L'utilisateur courant ne peut pas s'authentifier à l'application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissionsAsync(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Auditing.AuditingInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2020-05-19 17:08:12,603 [4    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-19 17:08:12,609 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action SlowDI.MultiTenancy.TenantAppService.GetAsync (SlowDI.Application) in 764.6269ms
+INFO  2020-05-19 17:08:12,613 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'SlowDI.MultiTenancy.TenantAppService.GetAsync (SlowDI.Application)'
+INFO  2020-05-19 17:08:12,616 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 830.6886ms 401 application/json; charset=utf-8
+INFO  2020-05-19 17:08:23,162 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Test/Test  
+INFO  2020-05-19 17:08:23,170 [13   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2020-05-19 17:08:23,174 [13   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2020-05-19 17:08:23,179 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'SlowDI.Tests.TestAppService.Test (SlowDI.Application)'
+INFO  2020-05-19 17:08:23,188 [13   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Test", controller = "Test"}. Executing controller action with signature Void Test() on controller SlowDI.Tests.TestAppService (SlowDI.Application).
+INFO  2020-05-19 17:08:26,331 [14   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-19 17:08:26,334 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action SlowDI.Tests.TestAppService.Test (SlowDI.Application) in 3143.603ms
+INFO  2020-05-19 17:08:26,337 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'SlowDI.Tests.TestAppService.Test (SlowDI.Application)'
+INFO  2020-05-19 17:08:26,340 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3178.3528ms 200 application/json; charset=utf-8
+INFO  2020-05-19 17:08:35,074 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/TestWithoutDI/Test  
+INFO  2020-05-19 17:08:35,079 [13   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2020-05-19 17:08:35,083 [13   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2020-05-19 17:08:35,087 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'SlowDI.Tests.TestWithoutDIAppService.Test (SlowDI.Application)'
+INFO  2020-05-19 17:08:35,097 [13   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Test", controller = "TestWithoutDI"}. Executing controller action with signature Void Test() on controller SlowDI.Tests.TestWithoutDIAppService (SlowDI.Application).
+INFO  2020-05-19 17:08:35,129 [9    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-19 17:08:35,134 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action SlowDI.Tests.TestWithoutDIAppService.Test (SlowDI.Application) in 33.1911ms
+INFO  2020-05-19 17:08:35,138 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'SlowDI.Tests.TestWithoutDIAppService.Test (SlowDI.Application)'
+INFO  2020-05-19 17:08:35,143 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 68.6127ms 200 application/json; charset=utf-8
+DEBUG 2020-05-19 17:08:50,866 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-05-19 17:08:50,945 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-05-19 17:08:50,966 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SlowDI.Web.Host.Startup.SlowDIWebHostModule, SlowDI.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:08:50,969 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SlowDI.SlowDIWebCoreModule, SlowDI.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:08:50,970 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SlowDI.SlowDIApplicationModule, SlowDI.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:08:50,971 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SlowDI.SlowDICoreModule, SlowDI.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:08:50,971 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:08:50,971 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:08:50,971 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:08:50,972 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:08:50,972 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SlowDI.EntityFrameworkCore.SlowDIEntityFrameworkModule, SlowDI.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:08:50,972 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:08:50,973 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:08:50,973 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:08:50,973 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:08:50,973 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:08:50,973 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:08:50,977 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-05-19 17:08:51,071 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-19 17:08:51,071 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-19 17:08:51,071 [1    ] o.Configuration.LanguageManagementConfig - Converted SlowDI (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-19 17:08:51,071 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-19 17:08:51,463 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: SlowDI.EntityFrameworkCore.SlowDIDbContext, SlowDI.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-19 17:08:52,543 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-05-19 17:08:52,583 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-05-19 17:08:52,596 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-05-19 17:08:52,607 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SlowDI
+DEBUG 2020-05-19 17:08:52,612 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-05-19 17:08:52,875 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-05-19 17:08:53,058 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[SlowDI.MultiTenancy.Tenant, SlowDI.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[SlowDI.Authorization.Users.User, SlowDI.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-05-19 17:08:53,126 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-05-19 17:08:53,126 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-05-19 17:08:53,132 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.Users.Dto.CreateUserDto
+DEBUG 2020-05-19 17:08:53,133 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.Users.Dto.UserDto
+DEBUG 2020-05-19 17:08:53,133 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-05-19 17:08:53,133 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-05-19 17:08:53,133 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.Roles.Dto.PermissionDto
+DEBUG 2020-05-19 17:08:53,133 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-05-19 17:08:53,133 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.MultiTenancy.Dto.TenantDto
+INFO  2020-05-19 17:08:56,172 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-05-19 17:08:56,501 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Naazz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-05-19 17:08:56,604 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-05-19 17:08:56,604 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-05-19 17:08:56,762 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 161.2547ms 0 
+INFO  2020-05-19 17:08:56,951 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 351.4622ms 200 text/html;charset=utf-8
+INFO  2020-05-19 17:08:57,406 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-05-19 17:08:57,452 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-05-19 17:08:57,547 [11   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2020-05-19 17:08:57,547 [7    ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2020-05-19 17:08:57,554 [7    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2020-05-19 17:08:57,554 [11   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2020-05-19 17:08:57,557 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'SlowDI.Web.Host.Controllers.AntiForgeryController.SetCookie (SlowDI.Web.Host)'
+INFO  2020-05-19 17:08:58,216 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 764.0777ms 200 application/json;charset=utf-8
+INFO  2020-05-19 17:09:02,192 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js.map  
+INFO  2020-05-19 17:09:02,195 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js.map  
+INFO  2020-05-19 17:09:02,202 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 10.2862ms 404 
+INFO  2020-05-19 17:09:02,205 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7.1631ms 404 
+INFO  2020-05-19 17:09:02,211 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css.map  
+INFO  2020-05-19 17:09:02,212 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller SlowDI.Web.Host.Controllers.AntiForgeryController (SlowDI.Web.Host).
+INFO  2020-05-19 17:09:02,215 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5.8255ms 404 
+INFO  2020-05-19 17:09:02,543 [11   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-19 17:09:02,570 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action SlowDI.Web.Host.Controllers.AntiForgeryController.SetCookie (SlowDI.Web.Host) in 347.3918ms
+INFO  2020-05-19 17:09:02,573 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'SlowDI.Web.Host.Controllers.AntiForgeryController.SetCookie (SlowDI.Web.Host)'
+INFO  2020-05-19 17:09:02,581 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5174.4627ms 200 application/json; charset=utf-8
+INFO  2020-05-19 17:09:11,779 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Tenant/Get  
+INFO  2020-05-19 17:09:11,786 [4    ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2020-05-19 17:09:11,789 [4    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2020-05-19 17:09:11,793 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'SlowDI.MultiTenancy.TenantAppService.GetAsync (SlowDI.Application)'
+INFO  2020-05-19 17:09:11,831 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Get", controller = "Tenant"}. Executing controller action with signature System.Threading.Tasks.Task`1[SlowDI.MultiTenancy.Dto.TenantDto] GetAsync(Abp.Application.Services.Dto.EntityDto`1[System.Int32]) on controller SlowDI.MultiTenancy.TenantAppService (SlowDI.Application).
+WARN  2020-05-19 17:09:13,065 [7    ] Mvc.ExceptionHandling.AbpExceptionFilter - L'utilisateur courant ne peut pas s'authentifier à l'application!
+Abp.Authorization.AbpAuthorizationException: L'utilisateur courant ne peut pas s'authentifier à l'application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissionsAsync(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Auditing.AuditingInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2020-05-19 17:09:13,078 [7    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-19 17:09:13,085 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action SlowDI.MultiTenancy.TenantAppService.GetAsync (SlowDI.Application) in 1250.7836ms
+INFO  2020-05-19 17:09:13,088 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'SlowDI.MultiTenancy.TenantAppService.GetAsync (SlowDI.Application)'
+INFO  2020-05-19 17:09:13,091 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1311.6063ms 401 application/json; charset=utf-8
+INFO  2020-05-19 17:09:23,634 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Test/Test  
+INFO  2020-05-19 17:09:23,641 [15   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2020-05-19 17:09:23,645 [15   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2020-05-19 17:09:23,649 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'SlowDI.Tests.TestAppService.Test (SlowDI.Application)'
+INFO  2020-05-19 17:09:23,659 [15   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Test", controller = "Test"}. Executing controller action with signature Void Test() on controller SlowDI.Tests.TestAppService (SlowDI.Application).
+INFO  2020-05-19 17:09:23,686 [4    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-19 17:09:23,690 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action SlowDI.Tests.TestAppService.Test (SlowDI.Application) in 28.0004ms
+INFO  2020-05-19 17:09:23,693 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'SlowDI.Tests.TestAppService.Test (SlowDI.Application)'
+INFO  2020-05-19 17:09:23,696 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 62.5962ms 200 application/json; charset=utf-8
+INFO  2020-05-19 17:09:32,458 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/TestWithoutDI/Test  
+INFO  2020-05-19 17:09:32,464 [15   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2020-05-19 17:09:32,467 [15   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2020-05-19 17:09:32,473 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'SlowDI.Tests.TestWithoutDIAppService.Test (SlowDI.Application)'
+INFO  2020-05-19 17:09:32,485 [15   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Test", controller = "TestWithoutDI"}. Executing controller action with signature Void Test() on controller SlowDI.Tests.TestWithoutDIAppService (SlowDI.Application).
+INFO  2020-05-19 17:09:32,518 [14   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-19 17:09:32,522 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action SlowDI.Tests.TestWithoutDIAppService.Test (SlowDI.Application) in 34.0644ms
+INFO  2020-05-19 17:09:32,525 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'SlowDI.Tests.TestWithoutDIAppService.Test (SlowDI.Application)'
+INFO  2020-05-19 17:09:32,528 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 70.7847ms 200 application/json; charset=utf-8
+DEBUG 2020-05-20 12:16:54,866 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-05-20 12:16:55,138 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-05-20 12:16:55,157 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SlowDI.Web.Host.Startup.SlowDIWebHostModule, SlowDI.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:16:55,160 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SlowDI.SlowDIWebCoreModule, SlowDI.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:16:55,160 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SlowDI.SlowDIApplicationModule, SlowDI.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:16:55,161 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SlowDI.SlowDICoreModule, SlowDI.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:16:55,161 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:16:55,161 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:16:55,161 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:16:55,162 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:16:55,162 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SlowDI.EntityFrameworkCore.SlowDIEntityFrameworkModule, SlowDI.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:16:55,163 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:16:55,163 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:16:55,163 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:16:55,163 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:16:55,164 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:16:55,164 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:16:55,166 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-05-20 12:16:55,396 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-20 12:16:55,396 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-20 12:16:55,396 [1    ] o.Configuration.LanguageManagementConfig - Converted SlowDI (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-20 12:16:55,396 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-20 12:16:55,930 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: SlowDI.EntityFrameworkCore.SlowDIDbContext, SlowDI.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:16:57,207 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-05-20 12:16:57,252 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-05-20 12:16:57,265 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-05-20 12:16:57,272 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SlowDI
+DEBUG 2020-05-20 12:16:57,278 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-05-20 12:16:57,588 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-05-20 12:16:57,776 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[SlowDI.MultiTenancy.Tenant, SlowDI.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[SlowDI.Authorization.Users.User, SlowDI.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-05-20 12:16:57,847 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-05-20 12:16:57,847 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-05-20 12:16:57,855 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.Users.Dto.CreateUserDto
+DEBUG 2020-05-20 12:16:57,856 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.Users.Dto.UserDto
+DEBUG 2020-05-20 12:16:57,857 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-05-20 12:16:57,857 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-05-20 12:16:57,857 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.Roles.Dto.PermissionDto
+DEBUG 2020-05-20 12:16:57,857 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-05-20 12:16:57,858 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.MultiTenancy.Dto.TenantDto
+INFO  2020-05-20 12:17:01,101 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-05-20 12:17:01,693 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Naazz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-05-20 12:17:01,838 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-05-20 12:17:02,128 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 290.8541ms 404 
+INFO  2020-05-20 12:17:07,890 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-05-20 12:17:08,070 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 180.6647ms 200 text/html;charset=utf-8
+INFO  2020-05-20 12:17:08,125 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2020-05-20 12:17:08,128 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2020-05-20 12:17:08,140 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.swagger.js was not modified
+INFO  2020-05-20 12:17:08,142 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.js was not modified
+INFO  2020-05-20 12:17:08,147 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 19.2253ms 304 application/javascript
+INFO  2020-05-20 12:17:08,149 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 25.7934ms 304 application/javascript
+INFO  2020-05-20 12:17:08,394 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-05-20 12:17:08,440 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-05-20 12:17:08,580 [5    ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2020-05-20 12:17:08,580 [4    ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2020-05-20 12:17:08,589 [4    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2020-05-20 12:17:08,589 [5    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2020-05-20 12:17:08,592 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'SlowDI.Web.Host.Controllers.AntiForgeryController.SetCookie (SlowDI.Web.Host)'
+INFO  2020-05-20 12:17:09,292 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 851.4056ms 200 application/json;charset=utf-8
+INFO  2020-05-20 12:17:13,561 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller SlowDI.Web.Host.Controllers.AntiForgeryController (SlowDI.Web.Host).
+INFO  2020-05-20 12:17:13,900 [10   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-20 12:17:13,924 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action SlowDI.Web.Host.Controllers.AntiForgeryController.SetCookie (SlowDI.Web.Host) in 354.5227ms
+INFO  2020-05-20 12:17:13,928 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'SlowDI.Web.Host.Controllers.AntiForgeryController.SetCookie (SlowDI.Web.Host)'
+INFO  2020-05-20 12:17:13,936 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5541.8128ms 200 application/json; charset=utf-8
+INFO  2020-05-20 12:17:20,370 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Test/Test  
+INFO  2020-05-20 12:17:20,375 [9    ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2020-05-20 12:17:20,379 [9    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2020-05-20 12:17:20,382 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'SlowDI.Tests.TestAppService.Test (SlowDI.Application)'
+INFO  2020-05-20 12:17:20,393 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Test", controller = "Test"}. Executing controller action with signature Void Test() on controller SlowDI.Tests.TestAppService (SlowDI.Application).
+INFO  2020-05-20 12:17:28,264 [5    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-20 12:17:28,268 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action SlowDI.Tests.TestAppService.Test (SlowDI.Application) in 7872.5132ms
+INFO  2020-05-20 12:17:28,272 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'SlowDI.Tests.TestAppService.Test (SlowDI.Application)'
+INFO  2020-05-20 12:17:28,275 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7905.3795ms 200 application/json; charset=utf-8
+DEBUG 2020-05-20 12:18:04,601 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-05-20 12:18:04,673 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-05-20 12:18:04,688 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SlowDI.Web.Host.Startup.SlowDIWebHostModule, SlowDI.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:18:04,690 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SlowDI.SlowDIWebCoreModule, SlowDI.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:18:04,691 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SlowDI.SlowDIApplicationModule, SlowDI.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:18:04,691 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SlowDI.SlowDICoreModule, SlowDI.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:18:04,691 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:18:04,692 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:18:04,692 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:18:04,692 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:18:04,693 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SlowDI.EntityFrameworkCore.SlowDIEntityFrameworkModule, SlowDI.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:18:04,693 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:18:04,693 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:18:04,693 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:18:04,693 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:18:04,694 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:18:04,694 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:18:04,697 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-05-20 12:18:04,785 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-20 12:18:04,785 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-20 12:18:04,785 [1    ] o.Configuration.LanguageManagementConfig - Converted SlowDI (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-20 12:18:04,785 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-20 12:18:05,285 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: SlowDI.EntityFrameworkCore.SlowDIDbContext, SlowDI.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:18:06,523 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-05-20 12:18:06,568 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-05-20 12:18:06,583 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-05-20 12:18:06,618 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SlowDI
+DEBUG 2020-05-20 12:18:06,625 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-05-20 12:18:06,909 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-05-20 12:18:07,076 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[SlowDI.MultiTenancy.Tenant, SlowDI.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[SlowDI.Authorization.Users.User, SlowDI.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-05-20 12:18:07,152 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-05-20 12:18:07,152 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-05-20 12:18:07,160 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.Users.Dto.CreateUserDto
+DEBUG 2020-05-20 12:18:07,161 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.Users.Dto.UserDto
+DEBUG 2020-05-20 12:18:07,162 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-05-20 12:18:07,163 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-05-20 12:18:07,163 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.Roles.Dto.PermissionDto
+DEBUG 2020-05-20 12:18:07,163 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-05-20 12:18:07,163 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.MultiTenancy.Dto.TenantDto
+INFO  2020-05-20 12:18:10,550 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-05-20 12:18:10,968 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Naazz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-05-20 12:18:11,082 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-05-20 12:18:11,272 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 191.9231ms 404 
+INFO  2020-05-20 12:18:17,577 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-05-20 12:18:17,788 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 211.4688ms 200 text/html;charset=utf-8
+INFO  2020-05-20 12:18:18,194 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-05-20 12:18:18,256 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-05-20 12:18:18,370 [9    ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2020-05-20 12:18:18,370 [12   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2020-05-20 12:18:18,379 [12   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2020-05-20 12:18:18,379 [9    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2020-05-20 12:18:18,382 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'SlowDI.Web.Host.Controllers.AntiForgeryController.SetCookie (SlowDI.Web.Host)'
+INFO  2020-05-20 12:18:19,111 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 854.9945ms 200 application/json;charset=utf-8
+INFO  2020-05-20 12:18:23,446 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller SlowDI.Web.Host.Controllers.AntiForgeryController (SlowDI.Web.Host).
+INFO  2020-05-20 12:18:23,774 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-20 12:18:23,804 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action SlowDI.Web.Host.Controllers.AntiForgeryController.SetCookie (SlowDI.Web.Host) in 350.4043ms
+INFO  2020-05-20 12:18:23,807 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'SlowDI.Web.Host.Controllers.AntiForgeryController.SetCookie (SlowDI.Web.Host)'
+INFO  2020-05-20 12:18:23,817 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5625.4173ms 200 application/json; charset=utf-8
+INFO  2020-05-20 12:18:26,370 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Test/Test  
+INFO  2020-05-20 12:18:26,376 [9    ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2020-05-20 12:18:26,381 [9    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2020-05-20 12:18:26,385 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'SlowDI.Tests.TestAppService.Test (SlowDI.Application)'
+INFO  2020-05-20 12:18:26,410 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Test", controller = "Test"}. Executing controller action with signature Void Test(SlowDI.SlowDis.ISlowDiRepository) on controller SlowDI.Tests.TestAppService (SlowDI.Application).
+WARN  2020-05-20 12:18:29,249 [9    ] Abp.Auditing.AuditingHelper              - System.ObjectDisposedException: Cannot access a disposed object. A common cause of this error is disposing a context that was resolved from dependency injection and then later trying to use the same context instance elsewhere in your application. This may occur if you are calling Dispose() on the context, or wrapping the context in a using statement. If you are using dependency injection, you should let the dependency injection container take care of disposing context instances.
+Object name: 'SlowDIDbContext'.
+   at Microsoft.EntityFrameworkCore.DbContext.CheckDisposed()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.IEnumerable.GetEnumerator()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeDictionary(JsonWriter writer, IDictionary values, JsonDictionaryContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonConvert.SerializeObjectInternal(Object value, Type type, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.JsonConvert.SerializeObject(Object value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.SerializeObject(Object value, JsonSerializerSettings settings)
+   at Abp.Auditing.JsonNetAuditSerializer.Serialize(Object obj)
+   at Abp.Auditing.AuditingHelper.ConvertArgumentsToJson(IDictionary`2 arguments)
+System.ObjectDisposedException: Cannot access a disposed object. A common cause of this error is disposing a context that was resolved from dependency injection and then later trying to use the same context instance elsewhere in your application. This may occur if you are calling Dispose() on the context, or wrapping the context in a using statement. If you are using dependency injection, you should let the dependency injection container take care of disposing context instances.
+Object name: 'SlowDIDbContext'.
+   at Microsoft.EntityFrameworkCore.DbContext.CheckDisposed()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.IEnumerable.GetEnumerator()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeDictionary(JsonWriter writer, IDictionary values, JsonDictionaryContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonConvert.SerializeObjectInternal(Object value, Type type, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.JsonConvert.SerializeObject(Object value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.SerializeObject(Object value, JsonSerializerSettings settings)
+   at Abp.Auditing.JsonNetAuditSerializer.Serialize(Object obj)
+   at Abp.Auditing.AuditingHelper.ConvertArgumentsToJson(IDictionary`2 arguments)
+ERROR 2020-05-20 12:18:29,300 [15   ] Mvc.ExceptionHandling.AbpExceptionFilter - Property accessor 'Database' on object 'SlowDI.EntityFrameworkCore.SlowDIDbContext' threw the following exception:'Cannot access a disposed object. A common cause of this error is disposing a context that was resolved from dependency injection and then later trying to use the same context instance elsewhere in your application. This may occur if you are calling Dispose() on the context, or wrapping the context in a using statement. If you are using dependency injection, you should let the dependency injection container take care of disposing context instances.
+Object name: 'SlowDIDbContext'.'
+System.Reflection.TargetInvocationException: Property accessor 'Database' on object 'SlowDI.EntityFrameworkCore.SlowDIDbContext' threw the following exception:'Cannot access a disposed object. A common cause of this error is disposing a context that was resolved from dependency injection and then later trying to use the same context instance elsewhere in your application. This may occur if you are calling Dispose() on the context, or wrapping the context in a using statement. If you are using dependency injection, you should let the dependency injection container take care of disposing context instances.
+Object name: 'SlowDIDbContext'.'
+ ---> System.ObjectDisposedException: Cannot access a disposed object. A common cause of this error is disposing a context that was resolved from dependency injection and then later trying to use the same context instance elsewhere in your application. This may occur if you are calling Dispose() on the context, or wrapping the context in a using statement. If you are using dependency injection, you should let the dependency injection container take care of disposing context instances.
+Object name: 'SlowDIDbContext'.
+   at Microsoft.EntityFrameworkCore.DbContext.CheckDisposed()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Database()
+   --- End of inner exception stack trace ---
+   at System.ComponentModel.ReflectPropertyDescriptor.GetValue(Object component)
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ValidateObjectRecursively(Object validatingObject, Int32 currentDepth)
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ValidateObjectRecursively(Object validatingObject, Int32 currentDepth)
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ValidateMethodParameter(ParameterInfo parameterInfo, Object parameterValue)
+   at Abp.Web.Validation.ActionInvocationValidatorBase.ValidateMethodParameter(ParameterInfo parameterInfo, Object parameterValue)
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate()
+   at Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2020-05-20 12:18:29,667 [15   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-20 12:18:29,674 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action SlowDI.Tests.TestAppService.Test (SlowDI.Application) in 3261.4283ms
+INFO  2020-05-20 12:18:29,677 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'SlowDI.Tests.TestAppService.Test (SlowDI.Application)'
+INFO  2020-05-20 12:18:29,680 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3310.4244ms 500 application/json; charset=utf-8
+DEBUG 2020-05-20 12:19:10,501 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-05-20 12:19:10,574 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-05-20 12:19:10,592 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SlowDI.Web.Host.Startup.SlowDIWebHostModule, SlowDI.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:19:10,594 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SlowDI.SlowDIWebCoreModule, SlowDI.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:19:10,594 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SlowDI.SlowDIApplicationModule, SlowDI.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:19:10,594 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SlowDI.SlowDICoreModule, SlowDI.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:19:10,595 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:19:10,595 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:19:10,595 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:19:10,596 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:19:10,596 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SlowDI.EntityFrameworkCore.SlowDIEntityFrameworkModule, SlowDI.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:19:10,596 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:19:10,597 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:19:10,597 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:19:10,597 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:19:10,598 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:19:10,598 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:19:10,600 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-05-20 12:19:10,697 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-20 12:19:10,697 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-20 12:19:10,697 [1    ] o.Configuration.LanguageManagementConfig - Converted SlowDI (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-20 12:19:10,697 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-20 12:19:11,111 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: SlowDI.EntityFrameworkCore.SlowDIDbContext, SlowDI.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-20 12:19:12,343 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-05-20 12:19:12,386 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-05-20 12:19:12,400 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-05-20 12:19:12,406 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SlowDI
+DEBUG 2020-05-20 12:19:12,423 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-05-20 12:19:12,704 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-05-20 12:19:12,892 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[SlowDI.MultiTenancy.Tenant, SlowDI.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[SlowDI.Authorization.Users.User, SlowDI.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-05-20 12:19:12,953 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-05-20 12:19:12,953 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-05-20 12:19:12,960 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.Users.Dto.CreateUserDto
+DEBUG 2020-05-20 12:19:12,961 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.Users.Dto.UserDto
+DEBUG 2020-05-20 12:19:12,961 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-05-20 12:19:12,961 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-05-20 12:19:12,961 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.Roles.Dto.PermissionDto
+DEBUG 2020-05-20 12:19:12,961 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-05-20 12:19:12,961 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SlowDI.MultiTenancy.Dto.TenantDto
+INFO  2020-05-20 12:19:15,981 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-05-20 12:19:16,316 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Naazz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-05-20 12:19:16,399 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-05-20 12:19:16,561 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 162.2133ms 404 
+INFO  2020-05-20 12:19:20,861 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-05-20 12:19:21,054 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 192.8907ms 200 text/html;charset=utf-8
+INFO  2020-05-20 12:19:21,575 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-05-20 12:19:21,640 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-05-20 12:19:21,729 [4    ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2020-05-20 12:19:21,729 [11   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2020-05-20 12:19:21,738 [11   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2020-05-20 12:19:21,738 [4    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2020-05-20 12:19:21,742 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'SlowDI.Web.Host.Controllers.AntiForgeryController.SetCookie (SlowDI.Web.Host)'
+INFO  2020-05-20 12:19:22,427 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 783.2271ms 200 application/json;charset=utf-8
+INFO  2020-05-20 12:19:26,890 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller SlowDI.Web.Host.Controllers.AntiForgeryController (SlowDI.Web.Host).
+INFO  2020-05-20 12:19:27,190 [9    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-20 12:19:27,213 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action SlowDI.Web.Host.Controllers.AntiForgeryController.SetCookie (SlowDI.Web.Host) in 315.8917ms
+INFO  2020-05-20 12:19:27,217 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'SlowDI.Web.Host.Controllers.AntiForgeryController.SetCookie (SlowDI.Web.Host)'
+INFO  2020-05-20 12:19:27,225 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5649.854ms 200 application/json; charset=utf-8
+INFO  2020-05-20 12:19:29,044 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Test/Test  
+INFO  2020-05-20 12:19:29,051 [7    ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2020-05-20 12:19:29,054 [7    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2020-05-20 12:19:29,059 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'SlowDI.Tests.TestAppService.Test (SlowDI.Application)'
+INFO  2020-05-20 12:19:29,082 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Test", controller = "Test"}. Executing controller action with signature Void Test(SlowDI.SlowDis.ISlowDiRepository) on controller SlowDI.Tests.TestAppService (SlowDI.Application).
+WARN  2020-05-20 12:19:32,439 [7    ] Abp.Auditing.AuditingHelper              - System.ObjectDisposedException: Cannot access a disposed object. A common cause of this error is disposing a context that was resolved from dependency injection and then later trying to use the same context instance elsewhere in your application. This may occur if you are calling Dispose() on the context, or wrapping the context in a using statement. If you are using dependency injection, you should let the dependency injection container take care of disposing context instances.
+Object name: 'SlowDIDbContext'.
+   at Microsoft.EntityFrameworkCore.DbContext.CheckDisposed()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.IEnumerable.GetEnumerator()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeDictionary(JsonWriter writer, IDictionary values, JsonDictionaryContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonConvert.SerializeObjectInternal(Object value, Type type, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.JsonConvert.SerializeObject(Object value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.SerializeObject(Object value, JsonSerializerSettings settings)
+   at Abp.Auditing.JsonNetAuditSerializer.Serialize(Object obj)
+   at Abp.Auditing.AuditingHelper.ConvertArgumentsToJson(IDictionary`2 arguments)
+System.ObjectDisposedException: Cannot access a disposed object. A common cause of this error is disposing a context that was resolved from dependency injection and then later trying to use the same context instance elsewhere in your application. This may occur if you are calling Dispose() on the context, or wrapping the context in a using statement. If you are using dependency injection, you should let the dependency injection container take care of disposing context instances.
+Object name: 'SlowDIDbContext'.
+   at Microsoft.EntityFrameworkCore.DbContext.CheckDisposed()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.IEnumerable.GetEnumerator()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeDictionary(JsonWriter writer, IDictionary values, JsonDictionaryContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonConvert.SerializeObjectInternal(Object value, Type type, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.JsonConvert.SerializeObject(Object value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.SerializeObject(Object value, JsonSerializerSettings settings)
+   at Abp.Auditing.JsonNetAuditSerializer.Serialize(Object obj)
+   at Abp.Auditing.AuditingHelper.ConvertArgumentsToJson(IDictionary`2 arguments)
+ERROR 2020-05-20 12:19:32,486 [13   ] Mvc.ExceptionHandling.AbpExceptionFilter - Property accessor 'Database' on object 'SlowDI.EntityFrameworkCore.SlowDIDbContext' threw the following exception:'Cannot access a disposed object. A common cause of this error is disposing a context that was resolved from dependency injection and then later trying to use the same context instance elsewhere in your application. This may occur if you are calling Dispose() on the context, or wrapping the context in a using statement. If you are using dependency injection, you should let the dependency injection container take care of disposing context instances.
+Object name: 'SlowDIDbContext'.'
+System.Reflection.TargetInvocationException: Property accessor 'Database' on object 'SlowDI.EntityFrameworkCore.SlowDIDbContext' threw the following exception:'Cannot access a disposed object. A common cause of this error is disposing a context that was resolved from dependency injection and then later trying to use the same context instance elsewhere in your application. This may occur if you are calling Dispose() on the context, or wrapping the context in a using statement. If you are using dependency injection, you should let the dependency injection container take care of disposing context instances.
+Object name: 'SlowDIDbContext'.'
+ ---> System.ObjectDisposedException: Cannot access a disposed object. A common cause of this error is disposing a context that was resolved from dependency injection and then later trying to use the same context instance elsewhere in your application. This may occur if you are calling Dispose() on the context, or wrapping the context in a using statement. If you are using dependency injection, you should let the dependency injection container take care of disposing context instances.
+Object name: 'SlowDIDbContext'.
+   at Microsoft.EntityFrameworkCore.DbContext.CheckDisposed()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Database()
+   --- End of inner exception stack trace ---
+   at System.ComponentModel.ReflectPropertyDescriptor.GetValue(Object component)
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ValidateObjectRecursively(Object validatingObject, Int32 currentDepth)
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ValidateObjectRecursively(Object validatingObject, Int32 currentDepth)
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ValidateMethodParameter(ParameterInfo parameterInfo, Object parameterValue)
+   at Abp.Web.Validation.ActionInvocationValidatorBase.ValidateMethodParameter(ParameterInfo parameterInfo, Object parameterValue)
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate()
+   at Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2020-05-20 12:19:32,854 [13   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-20 12:19:32,861 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action SlowDI.Tests.TestAppService.Test (SlowDI.Application) in 3776.1114ms
+INFO  2020-05-20 12:19:32,863 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'SlowDI.Tests.TestAppService.Test (SlowDI.Application)'
+INFO  2020-05-20 12:19:32,866 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3822.8425ms 500 application/json; charset=utf-8
